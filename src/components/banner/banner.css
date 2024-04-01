@@ -1,0 +1,40 @@
+.ban_main{
+    padding: 100px 0;
+    background-color: #212228;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.imag_1{
+    background: url(../../assets/miraz.jpg) no-repeat center / cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.name{
+    font-family: "Poppins", sans-serif;
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+}
+.name small{
+    font-size: 24px;
+    margin-bottom: 12px;
+    display: block;
+}
+.name strong{
+    color: #adff00;
+    font-weight: 600;
+}
+.index-module_type__E-SaG{
+    color: #fff;
+    text-align: center;
+}
