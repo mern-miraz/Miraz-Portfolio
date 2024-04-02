@@ -4,6 +4,8 @@ import { Col, Container, Row } from 'react-bootstrap'
 import { TypeAnimation } from 'react-type-animation';
 import BanReuseable from '../reuseable/BanReuseable';
 import { FaReact } from "react-icons/fa";
+import { BsRocket } from "react-icons/bs";
+
 
 
 const Banner = () => {
@@ -58,7 +60,7 @@ const Banner = () => {
                 </Col>
                 <Col lg={4}><BanReuseable icon={<FaReact/>} title="Creativity" description="Duis aute irure dolor in it esse cillum fugiat nulla pari erunt mollit anim id est laborum." /></Col>
 
-                <Col lg={4}><BanReuseable/></Col>
+                <Col lg={4}><BanReuseable icon={<BsRocket/>} title="Dedication" description="Beaboris nisi ut aliquip ex ea commodo consen cillum dolore eu fugiat nulla pariatur." /></Col>
                 
                 <Col lg={4}><BanReuseable/></Col>
           </Row>
