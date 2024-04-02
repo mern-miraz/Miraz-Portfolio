@@ -33,7 +33,7 @@ const Banner = () => {
                   2000
                 ]}
                 wrapper="span"
-                speed={500}
+                speed={300}
                 style={{ fontSize: '2em', display: 'inline-block'}}
                 repeat={Infinity}
               />
