@@ -1,6 +1,6 @@
 import React from 'react'
 import "./menu.css"
-import {Container, Navbar, Nav} from 'react-bootstrap'
+import {Container, Navbar, Nav, Row} from 'react-bootstrap'
 import { IoIosHome, IoIosContact } from "react-icons/io";
 import { FaFacebookF, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { LiaToolboxSolid } from "react-icons/lia";
@@ -30,13 +30,14 @@ const Menu = () => {
             </ul>
 
             <ul className='nav_social_one'>
-            <li> <a href="" className='fac1'> <i><FaFacebookF/></i> </a> </li>
-                <li> <a href="" className='twit1'> <i><FaTwitter/></i> </a> </li>
-                <li> <a href="" className='link1'> <i><FaLinkedin/></i> </a> </li>
-                <li> <a href="" className='insta1'> <i><FaInstagram/></i> </a> </li>
+            <li> <a href="#" className='fac1'> <i><FaFacebookF/></i> </a> </li>
+                <li> <a href="#" className='twit1'> <i><FaTwitter/></i> </a> </li>
+                <li> <a href="#" className='link1'> <i><FaLinkedin/></i> </a> </li>
+                <li> <a href="#" className='insta1'> <i><FaInstagram/></i> </a> </li>
             </ul>
           </Nav>
 
+            <Row >
             <div>
             <ScrollspyNav 
                     scrollTargetIds={["home", "about", "protfolio", "service", "contact"]}
@@ -52,14 +53,15 @@ const Menu = () => {
                 <li className='nav-item'> <a href="#contact" className='nav-link'> <i><TbMailOpenedFilled/></i> <span>Contact</span></a> </li>
               </ul>
             </ScrollspyNav>
-            
+
               <ul className="nav_social">
-                <li> <a href="" className='fac1'> <i><FaFacebookF/></i> </a> </li>
-                <li> <a href="" className='twit1'> <i><FaTwitter/></i> </a> </li>
-                <li> <a href="" className='link1'> <i><FaLinkedin/></i> </a> </li>
-                <li> <a href="" className='insta1'> <i><FaInstagram/></i> </a> </li>
+                <li> <a href="#" className='fac1'> <i><FaFacebookF/></i> </a> </li>
+                <li> <a href="#" className='twit1'> <i><FaTwitter/></i> </a> </li>
+                <li> <a href="#" className='link1'> <i><FaLinkedin/></i> </a> </li>
+                <li> <a href="#" className='insta1'> <i><FaInstagram/></i> </a> </li>
               </ul>
             </div>
+            </Row>
         </Navbar.Collapse>
       </Container>
     </Navbar>

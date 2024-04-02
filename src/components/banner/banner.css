@@ -35,6 +35,92 @@
     font-weight: 600;
 }
 .index-module_type__E-SaG{
+    font-family: "Poppins", sans-serif;
     color: #fff;
+}
+.type_anim{
     text-align: center;
+}
+.ban_btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.ban_btn .btn_one{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 1px;
+    background-color: #adff00;
+    text-transform: uppercase;
+    padding: 15px 42px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-right: 12px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.ban_btn .btn_one:hover{
+    color: #fff;
+}
+.ban_btn .btn_two{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff ;
+    letter-spacing: 1px;
+    background-color: #222;
+    text-transform: uppercase;
+    border: 2px solid #adff00;
+    padding: 13px 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.ban_btn .btn_two:hover{
+    background-color: #adff00;
+    color: #222;
+    border: 2px solid transparent;
+}
+.world_main{
+    margin-top: 60px;
+}
+.world{
+    padding: 100px 0;
+    background-color: #fff;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.world_text{
+    text-align: center;
+}
+.world_text h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.world_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 370px;
+    color: #948daa;
+    margin-top: 20px;
 }
