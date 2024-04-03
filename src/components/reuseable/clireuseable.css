@@ -1,0 +1,18 @@
+.client_one i{
+    color: #adff00;
+    font-size: 60px;
+}
+.client_one h3{
+    color: #fff;
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    padding: 0 100px;
+}
+.client_one h4{
+    margin-top: 25px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}

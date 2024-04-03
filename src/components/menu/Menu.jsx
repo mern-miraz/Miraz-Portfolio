@@ -21,13 +21,14 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className='nav_main-1'>
-            <ul className='nav_main_one'>
-                <li className='nav-item'> <a href="#home" className='nav-link'> <i><IoIosHome /></i> <span>Home</span></a> </li>
-                <li className='nav-item'> <a href="#about" className='nav-link'> <i><IoIosContact/></i> <span>About</span></a> </li>
-                <li className='nav-item'> <a href="#protfolio" className='nav-link'> <i><LiaToolboxSolid/></i> <span>Protfolio</span></a> </li>
-                <li className='nav-item'> <a href="#service" className='nav-link'> <i><MdOutlineSettings/></i> <span>Service</span></a> </li>
-                <li className='nav-item'> <a href="#contact" className='nav-link'> <i><TbMailOpenedFilled/></i> <span>Contact</span></a> </li>
-            </ul>
+              <ul className='nav_main_one'>
+                <li> <a href="#home" > <i><IoIosHome /></i> <span>Home</span></a> </li>
+                <li> <a href="#about" > <i><IoIosContact /></i> <span>About</span></a> </li>
+                <li> <a href="#protfolio" > <i><LiaToolboxSolid /></i> <span>Protfolio</span></a> </li>
+                <li> <a href="#service" > <i><MdOutlineSettings /></i> <span>Service</span></a> </li>
+                <li> <a href="#contact" > <i><TbMailOpenedFilled /></i> <span>Contact</span></a> </li>
+              </ul>
+            
 
             <ul className='nav_social_one'>
             <li> <a href="#" className='fac1'> <i><FaFacebookF/></i> </a> </li>
@@ -36,23 +37,23 @@ const Menu = () => {
                 <li> <a href="#" className='insta1'> <i><FaInstagram/></i> </a> </li>
             </ul>
           </Nav>
-
-            <Row >
-            <div>
-            <ScrollspyNav 
-                    scrollTargetIds={["home", "about", "protfolio", "service", "contact"]}
+          
+          <div>
+          <ScrollspyNav
+                    scrollTargetIds={["home"]}
                     offset={100}
                     activeNavClass="is-active"
                     scrollDuration="1000"
-                    headerBackground="true">
+                    headerBackground="true"
+                >
             <ul className='nav_main'>
-                <li className='nav-item'> <a href="#home" className='nav-link'> <i><IoIosHome /></i> <span>Home</span></a> </li>
-                <li className='nav-item'> <a href="#about" className='nav-link'> <i><IoIosContact/></i> <span>About</span></a> </li>
-                <li className='nav-item'> <a href="#protfolio" className='nav-link'> <i><LiaToolboxSolid/></i> <span>Protfolio</span></a> </li>
-                <li className='nav-item'> <a href="#service" className='nav-link'> <i><MdOutlineSettings/></i> <span>Service</span></a> </li>
-                <li className='nav-item'> <a href="#contact" className='nav-link'> <i><TbMailOpenedFilled/></i> <span>Contact</span></a> </li>
+                <li> <a href="#home" className='nav-link'> <i><IoIosHome /></i> <span>Home</span></a> </li>
+                <li> <a href="#" className='nav-link'> <i><IoIosContact/></i> <span>About</span></a> </li>
+                <li> <a href="#" className='nav-link'> <i><LiaToolboxSolid/></i> <span>Protfolio</span></a> </li>
+                <li> <a href="#" className='nav-link'> <i><MdOutlineSettings/></i> <span>Service</span></a> </li>
+                <li> <a href="#" className='nav-link'> <i><TbMailOpenedFilled/></i> <span>Contact</span></a> </li>
               </ul>
-            </ScrollspyNav>
+              </ScrollspyNav>
 
               <ul className="nav_social">
                 <li> <a href="#" className='fac1'> <i><FaFacebookF/></i> </a> </li>
@@ -61,7 +62,6 @@ const Menu = () => {
                 <li> <a href="#" className='insta1'> <i><FaInstagram/></i> </a> </li>
               </ul>
             </div>
-            </Row>
         </Navbar.Collapse>
       </Container>
     </Navbar>

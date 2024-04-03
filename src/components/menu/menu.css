@@ -8,6 +8,9 @@
 .nav_social_one{
     display: none;
 }
+.is-active{
+    background-color: rgb(135, 244, 10) !important;
+}
 .nav_main{
     position: fixed;
     top: 50%;
@@ -21,6 +24,9 @@
 }
 .nav_main li{
     margin: 10px 0;
+}
+.nav_main li:hover a i{
+    color: rgb(135, 244, 10);
 }
 .nav_main .nav-link{
     height: 60px;
@@ -36,6 +42,10 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.nav_main .nav-link i{
+    line-height: 50px;
+    color: #fff;
 }
 .nav_main .nav-link span{
     position: absolute;
@@ -89,14 +99,10 @@
     color: #fff;
     background-color: rgb(135, 244, 10);
 }
-.is-active{
-    background-color: rgb(135, 244, 10);
-    color: black;
-}
 .nav_social{
     position: fixed;
     top: 50%;
-    left: 0;
+    left: 30px;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
@@ -184,8 +190,18 @@
     .nav_main_one li{
         border-bottom: 1px solid gray ;
         position: relative;
-        margin-top: 3px;
+        height: 60px;
     }
+    .nav_main_one li a{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+}
     .nav_main_one li i{
         font-size: 18px;
         font-weight: 600;
@@ -199,11 +215,19 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        transition: 0.2s;
         -webkit-transform: translateY(-50%);
         -moz-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
 }
+    .nav_main_one li:hover span{
+        color: rgb(135, 244, 10);
+    }
 
     .nav_social_one{
         display: block;

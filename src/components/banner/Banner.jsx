@@ -5,6 +5,19 @@ import { TypeAnimation } from 'react-type-animation';
 import BanReuseable from '../reuseable/BanReuseable';
 import { FaReact } from "react-icons/fa";
 import { BsRocket } from "react-icons/bs";
+import { IoDiamond } from "react-icons/io5";
+import Clireuseable from '../reuseable/Clireuseable';
+import { BsBoxSeam } from "react-icons/bs";
+import { HiOutlineUsers } from "react-icons/hi";
+import { LiaToolboxSolid } from "react-icons/lia";
+import { TfiCup } from "react-icons/tfi";
+import CountUp from 'react-countup';
+
+
+
+
+
+
 
 
 
@@ -60,9 +73,26 @@ const Banner = () => {
                 </Col>
                 <Col lg={4}><BanReuseable icon={<FaReact/>} title="Creativity" description="Duis aute irure dolor in it esse cillum fugiat nulla pari erunt mollit anim id est laborum." /></Col>
 
-                <Col lg={4}><BanReuseable icon={<BsRocket/>} title="Dedication" description="Beaboris nisi ut aliquip ex ea commodo consen cillum dolore eu fugiat nulla pariatur." /></Col>
+                <Col lg={4}><BanReuseable icon={<IoDiamond/>} title="Dedication" description="Beaboris nisi ut aliquip ex ea commodo consen cillum dolore eu fugiat nulla pariatur." /></Col>
                 
-                <Col lg={4}><BanReuseable/></Col>
+                <Col lg={4}><BanReuseable icon={<BsRocket/>} title="Hard Work" description="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offi llit anim id est laborum."/></Col>
+          </Row>
+        </Container>
+        
+        <Container className='cli-main'>
+          <Row className='cli'>
+            <Col lg={3} className='cli_one'>
+              <Clireuseable icon_two={<BsBoxSeam />} icon_text="Digital Products" cli_count={<CountUp start={0} end={30}></CountUp>} />
+            </Col>
+            <Col lg={3} className='cli_two'>
+            <Clireuseable icon_two={<HiOutlineUsers/>} icon_text="Clients Wordwide" cli_count={<CountUp start={0} end={200}></CountUp>} />
+            </Col>
+            <Col lg={3} className='cli_three'>
+            <Clireuseable icon_two={<LiaToolboxSolid/>} icon_text="Total Projects" cli_count={<CountUp start={0} end={950}></CountUp>} />
+            </Col>
+            <Col lg={3} className='cli_four'>
+            <Clireuseable icon_two={<TfiCup/>} icon_text="Awards Won" cli_count={<CountUp start={0} end={19}></CountUp>} />
+            </Col>
           </Row>
         </Container>
         </section>

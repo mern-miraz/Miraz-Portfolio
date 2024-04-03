@@ -124,3 +124,27 @@
     color: #948daa;
     margin-top: 20px;
 }
+.cli-main{
+    margin-top: 60px;
+}
+.cli{
+    padding: 100px 0;
+    background-color: #212228;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+.cli_one{
+    text-align: center;
+}
+.cli_two{
+    text-align: center;
+}
+.cli_three{
+    text-align: center;
+}
+.cli_four{
+    text-align: center;
+}
