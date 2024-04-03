@@ -1,5 +1,5 @@
 .ban_main{
-    padding: 100px 0;
+    padding: 130px 0;
     background-color: #212228;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -99,7 +99,7 @@
     margin-top: 60px;
 }
 .world{
-    padding: 100px 0;
+    padding: 70px 25px;
     background-color: #fff;
     border-radius: 18px;
     -webkit-border-radius: 18px;
@@ -128,7 +128,7 @@
     margin-top: 60px;
 }
 .cli{
-    padding: 100px 0;
+    padding: 60px 0;
     background-color: #212228;
     border-radius: 18px;
     -webkit-border-radius: 18px;

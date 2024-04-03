@@ -1,0 +1,32 @@
+.prot{
+    margin-top: 60px;
+}
+.prot_main{
+    padding: 70px 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.port_text{
+    text-align: center;
+}
+.port_text h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.port_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #948daa;
+    padding: 0 340px;
+}
