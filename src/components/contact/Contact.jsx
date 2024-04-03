@@ -1,6 +1,7 @@
 import React from 'react'
 import "./contact.css"
 import { Col, Container, Row } from 'react-bootstrap'
+import ScrollToTop from "react-scroll-to-top";
 
 const Contact = () => {
   return (
@@ -35,6 +36,7 @@ const Contact = () => {
                     </Row>
                 </Col>
         </Row>
+        <ScrollToTop smooth />
     </Container>
     </section>
     </>

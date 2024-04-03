@@ -1,5 +1,6 @@
 .contact{
     margin-top: 60px;
+    margin-bottom: 100px;
 }
 .contact_main{
     padding: 70px 0;
@@ -76,4 +77,21 @@
 .btn:hover{
     background-color: #282938;
     color: #adff00;
+}
+.scroll-to-top {
+    background-color: #adff00 !important;
+    right: 120px !important;
+    bottom: 40px;
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 50% !important;
+    width: 60px !important;
+    height: 60px !important;
+    box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28);
+    border: none;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
 }
