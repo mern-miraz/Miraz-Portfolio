@@ -1,6 +1,6 @@
 import React from 'react'
 import "./contact.css"
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Form, Row } from 'react-bootstrap'
 import ScrollToTop from "react-scroll-to-top";
 
 const Contact = () => {
@@ -16,6 +16,7 @@ const Contact = () => {
             </div>
         </Col>
 
+        <Form>
         <Col lg={{span:10, offset:1}}>
                     <Row className='form_main'>
                         <Col lg={6}>
@@ -28,13 +29,14 @@ const Contact = () => {
                         </Col>
                         <Col lg={12}>
                         <label for="msg">Message</label>
-                            <textarea name="" id="msg" class="form-control msg" cols="30" rows="6" placeholder="Write your Message here"></textarea>
+                            <textarea name="" id="msg" class="form-control msg" cols="30" rows="6" placeholder="Write your Message here" required></textarea>
                         </Col>
                         <div class="form_btn">
                           <button type="submit" class="btn">Send Messege</button>
                         </div>
                     </Row>
                 </Col>
+                </Form>
         </Row>
         <ScrollToTop smooth />
     </Container>
