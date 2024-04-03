@@ -62,21 +62,25 @@
     color: #000000;
 }
 .form_btn{
-    margin-top: 25px;
+    margin-top: 25px !important;
 }
-.btn{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 32px;
-    color: #F4F6FC;
-    padding: 15px 51px;
-    border-radius: 41px;
-    background-color: #282938;
+.form_btn .btn{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 32px !important;
+    color: #F4F6FC !important;
+    padding: 15px 51px !important;
+    border-radius: 41px !important;
+    background-color: #282938 !important;
+    -webkit-border-radius: 41px !important;
+    -moz-border-radius: 41px !important;
+    -ms-border-radius: 41px !important;
+    -o-border-radius: 41px !important;
 }
 .btn:hover{
     background-color: #282938;
-    color: #adff00;
+    color: #adff00 !important;
 }
 .scroll-to-top {
     background-color: #adff00 !important;
