@@ -1,0 +1,79 @@
+.contact{
+    margin-top: 60px;
+}
+.contact_main{
+    padding: 70px 0;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.contact_text{
+    text-align: center;
+}
+.contact_text h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+}
+.contact_text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #948daa;
+    padding: 0 320px;
+}
+
+.form_main{
+    padding: 55px 77px;
+    background-color: #F4F6FC;
+    display: flex;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.form_main label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+}
+.form_main input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+.msg{
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+.form_btn{
+    margin-top: 25px;
+}
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #F4F6FC;
+    padding: 15px 51px;
+    border-radius: 41px;
+    background-color: #282938;
+}
+.btn:hover{
+    background-color: #282938;
+    color: #adff00;
+}

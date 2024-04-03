@@ -40,7 +40,7 @@ const Menu = () => {
           
           <div>
           <ScrollspyNav
-                    scrollTargetIds={["home", "about"]}
+                    scrollTargetIds={["home", "about", "protfolio", "contact"]}
                     offset={100}
                     activeNavClass="is-active"
                     scrollDuration="1000"
@@ -49,9 +49,9 @@ const Menu = () => {
             <ul className='nav_main'>
                 <li> <a href="#home" className='nav-link'> <i><IoIosHome /></i> <span>Home</span></a> </li>
                 <li> <a href="#about" className='nav-link'> <i><IoIosContact/></i> <span>About</span></a> </li>
-                <li> <a href="#" className='nav-link'> <i><LiaToolboxSolid/></i> <span>Protfolio</span></a> </li>
+                <li> <a href="#protfolio" className='nav-link'> <i><LiaToolboxSolid/></i> <span>Protfolio</span></a> </li>
                 <li> <a href="#" className='nav-link'> <i><MdOutlineSettings/></i> <span>Service</span></a> </li>
-                <li> <a href="#" className='nav-link'> <i><TbMailOpenedFilled/></i> <span>Contact</span></a> </li>
+                <li> <a href="#contact" className='nav-link'> <i><TbMailOpenedFilled/></i> <span>Contact</span></a> </li>
               </ul>
               </ScrollspyNav>
 
