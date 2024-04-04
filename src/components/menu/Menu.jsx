@@ -16,7 +16,7 @@ const Menu = () => {
 
 <Navbar expand="xl" className="menu_bg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home" className='Mir_name'><h3>M<span>ira</span>Z</h3></Navbar.Brand>
         <div className="nav_cv"> <a href="#">download cv</a> </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
