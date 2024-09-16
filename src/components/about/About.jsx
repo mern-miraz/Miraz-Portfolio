@@ -16,8 +16,7 @@ const About = () => {
         <div className="about_text">
             <h4>about me</h4>
             <h2>React JS Developer from Bangladesh</h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
-            <p>Tabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consequat.</p>
+            <p>I'm a professional Front-End Developer and focused on crafting clean & user‑friendly experiences. I am passionate about building excellent web applications that improves the lives of those around me. With expertise in Bootstrap, Tailwind CSS, and React JS. I bring innovative web solutions to life. Let's build something great together!</p>
         </div>
         <Row className='add_main'>
             <Col lg={6}>
@@ -29,7 +28,7 @@ const About = () => {
             <Col lg={6}>
                 <div className="add_text">
                 <h4>Age</h4>
-                <p>25 Years</p>
+                <p>18+ Years</p>
                 </div>
             </Col>
             <Col lg={6}>
@@ -41,7 +40,7 @@ const About = () => {
             <Col lg={6}>
                 <div className="add_text">
                 <h4>education</h4>
-                <p>Bachelor of CSE</p>
+                <p>HSC Running</p>
                 </div>
             </Col>
             <Col lg={6}>

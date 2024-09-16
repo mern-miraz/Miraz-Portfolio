@@ -31,7 +31,7 @@ const Menu = () => {
             
 
             <ul className='nav_social_one'>
-            <li> <a href="#" className='fac1'> <i><FaFacebookF/></i> </a> </li>
+            <li> <a href="https://www.facebook.com/mernMiraz/" className='fac1'> <i><FaFacebookF/></i> </a> </li>
                 <li> <a href="#" className='twit1'> <i><FaTwitter/></i> </a> </li>
                 <li> <a href="#" className='link1'> <i><FaLinkedin/></i> </a> </li>
                 <li> <a href="#" className='insta1'> <i><FaInstagram/></i> </a> </li>
@@ -56,7 +56,7 @@ const Menu = () => {
               </ScrollspyNav>
 
               <ul className="nav_social">
-                <li> <a href="#" className='fac1'> <i><FaFacebookF/></i> </a> </li>
+                <li> <a href="https://www.facebook.com/mernMiraz/" className='fac1'> <i><FaFacebookF/></i> </a> </li>
                 <li> <a href="#" className='twit1'> <i><FaTwitter/></i> </a> </li>
                 <li> <a href="#" className='link1'> <i><FaLinkedin/></i> </a> </li>
                 <li> <a href="#" className='insta1'> <i><FaInstagram/></i> </a> </li>
