@@ -83,10 +83,11 @@
     color: #adff00 !important;
 }
 .scroll-to-top {
-    background-color: #adff00 !important;
+    background-image: linear-gradient(to right, #0575E6, #021B79);
     right: 120px !important;
     bottom: 40px;
     position: fixed;
+    color: white !important;
     z-index: 2;
     cursor: pointer;
     border-radius: 50% !important;
@@ -99,3 +100,9 @@
     -ms-border-radius: 50% !important;
     -o-border-radius: 50% !important;
 }
+
+@media(max-width: 1199px){
+    .contact_text p {
+        padding: 0px;
+    }
+};

@@ -31,3 +31,9 @@
     color: #948daa;
     padding: 0 340px;
 }
+
+@media(max-width: 1199px){
+    .port_text p {
+        padding: 0px;
+    }
+};

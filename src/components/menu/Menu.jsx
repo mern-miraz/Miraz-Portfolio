@@ -2,11 +2,12 @@ import React from 'react'
 import "./menu.css"
 import {Container, Navbar, Nav, Row} from 'react-bootstrap'
 import { IoIosHome, IoIosContact } from "react-icons/io";
-import { FaFacebookF, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedin, FaInstagram, FaGithub  } from "react-icons/fa";
 import { LiaToolboxSolid } from "react-icons/lia";
 import { MdOutlineSettings } from "react-icons/md";
 import { TbMailOpenedFilled } from "react-icons/tb";
 import ScrollspyNav from "react-scrollspy-nav";
+import mirazCV from "../../assets/MIRAZUL_ISLAM_CV.pdf"
 
 
 
@@ -14,10 +15,10 @@ import ScrollspyNav from "react-scrollspy-nav";
 const Menu = () => {
   return (
 
-<Navbar expand="xl" className="menu_bg">
+<Navbar expand="xl" href="#home" className="menu_bg">
       <Container>
-        <Navbar.Brand href="#home" className='Mir_name'><h3>M<span>ira</span>Z</h3></Navbar.Brand>
-        <div className="nav_cv"> <a href="#">download cv</a> </div>
+        <Navbar.Brand  className='Mir_name'><h3>MIRAZ</h3></Navbar.Brand>
+        <div className="nav_cv">  <a target='_blank' href={mirazCV} download>download cv</a> </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className='nav_main-1'>
@@ -27,14 +28,14 @@ const Menu = () => {
                 <li> <a href="#protfolio" > <i><LiaToolboxSolid /></i> <span>Protfolio</span></a> </li>
                 <li> <a href="#service" > <i><MdOutlineSettings /></i> <span>Service</span></a> </li>
                 <li> <a href="#contact" > <i><TbMailOpenedFilled /></i> <span>Contact</span></a> </li>
+                <li><div className="nav_cv_one">  <a target='_blank' href={mirazCV} download>download cv</a> </div></li>
               </ul>
             
 
             <ul className='nav_social_one'>
-            <li> <a href="https://www.facebook.com/mernMiraz/" className='fac1'> <i><FaFacebookF/></i> </a> </li>
-                <li> <a href="#" className='twit1'> <i><FaTwitter/></i> </a> </li>
-                <li> <a href="#" className='link1'> <i><FaLinkedin/></i> </a> </li>
-                <li> <a href="#" className='insta1'> <i><FaInstagram/></i> </a> </li>
+            <li> <a target='_blank' href="https://www.facebook.com/mern.miraz/" className='fac1'> <i><FaFacebookF/></i> </a> </li>
+                <li> <a target='_blank' href="https://www.linkedin.com/in/mern-miraz/" className='link1'> <i><FaLinkedin/></i> </a> </li>
+                <li> <a target='_blank' href="https://github.com/mern-miraz" className='insta1'> <i><FaGithub /></i> </a> </li>
             </ul>
           </Nav>
           
@@ -56,10 +57,9 @@ const Menu = () => {
               </ScrollspyNav>
 
               <ul className="nav_social">
-                <li> <a href="https://www.facebook.com/mernMiraz/" className='fac1'> <i><FaFacebookF/></i> </a> </li>
-                <li> <a href="#" className='twit1'> <i><FaTwitter/></i> </a> </li>
-                <li> <a href="#" className='link1'> <i><FaLinkedin/></i> </a> </li>
-                <li> <a href="#" className='insta1'> <i><FaInstagram/></i> </a> </li>
+                <li> <a target='_blank' href="https://www.facebook.com/mern.miraz/" className='fac1'> <i><FaFacebookF/></i> </a> </li>
+                <li> <a target='_blank' href="https://www.linkedin.com/in/mern-miraz/" className='link1'> <i><FaLinkedin/></i> </a> </li>
+                <li> <a target='_blank' href="https://github.com/mern-miraz" className='insta1'> <i><FaGithub /></i> </a> </li>
               </ul>
             </div>
         </Navbar.Collapse>

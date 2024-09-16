@@ -6,10 +6,9 @@
     font-family: "Poppins", sans-serif;
     font-size: 48px;
     font-weight: 600;
-    color: #ff7300;
-}
-.Mir_name h3 span{
-    color: #00AAFF;
+    background-image: linear-gradient(to right, #0575E6, #021B79);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .nav_main_one{
     display: none;
@@ -91,8 +90,8 @@
     font-weight: 600;
     text-transform: uppercase;
     padding: 12px 20px;
-    background-color:  RGB(173, 255, 0);
-    color: #000;
+    background: linear-gradient(to right, #0575E6, #021B79);
+    color: white;
     transition: 0.5s;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -104,9 +103,24 @@
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
 }
-.nav_cv a:hover{
-    color: #fff;
-    background-color: rgb(135, 244, 10);
+.nav_cv_one a{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    background: linear-gradient(to right, #0575E6, #021B79);
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 .nav_social{
     position: fixed;
@@ -254,8 +268,12 @@
     }
     .nav_cv{
         position: inherit;
+        display: none;
     }
     .nav_social{
         display: none;
+    }
+    .scroll-to-top {
+        right: 0px !important;
     }
 }

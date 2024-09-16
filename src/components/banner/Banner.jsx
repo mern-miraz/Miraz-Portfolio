@@ -15,12 +15,6 @@ import CountUp from 'react-countup';
 
 
 
-
-
-
-
-
-
 const Banner = () => {
   return (
     <>
@@ -56,7 +50,7 @@ const Banner = () => {
 
               <div className="ban_btn">
                 <a href="" className="btn_one">hire me</a>
-                <a href="" className="btn_two">about me</a>
+                <a href="#about" className="btn_two">about me</a>
               </div>
 
                 </Col>
