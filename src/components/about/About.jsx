@@ -2,6 +2,7 @@ import React from 'react'
 import "./about.css"
 import { Col, Container, Row } from 'react-bootstrap'
 import about_img from "../../assets/about.png"
+import mirazCV from "../../assets/MIRAZUL_ISLAM_CV.pdf"
 
 const About = () => {
   return (
@@ -56,7 +57,7 @@ const About = () => {
                 </div>
             </Col>
             <Col lg={6}>
-            <div className="about_cv"> <a href="#">download cv</a> </div>
+            <div className="about_cv"> <a href={mirazCV} target='_blank' download>download cv</a> </div>
             </Col>
         </Row>
         </Col>

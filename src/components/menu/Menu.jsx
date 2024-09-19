@@ -15,7 +15,7 @@ import mirazCV from "../../assets/MIRAZUL_ISLAM_CV.pdf"
 const Menu = () => {
   return (
 
-<Navbar expand="xl" href="#home" className="menu_bg">
+<Navbar expand="xl" id='home' href="#home" className="menu_bg">
       <Container>
         <Navbar.Brand  className='Mir_name'><h3>MIRAZ</h3></Navbar.Brand>
         <div className="nav_cv">  <a target='_blank' href={mirazCV} download>download cv</a> </div>

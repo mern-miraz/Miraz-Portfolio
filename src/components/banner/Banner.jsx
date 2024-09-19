@@ -33,16 +33,16 @@ const Banner = () => {
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
                   'I am a Front-end Developer',
-                  2000, // wait 1s before replacing "Mice" with "Hamsters"
+                  3000, // wait 1s before replacing "Mice" with "Hamsters"
                   'I am a Back-end Developer',
-                  2000,
-                  'I am a React Developer',
-                  2000,
+                  3000,
+                  'I am a React JS Developer',
+                  3000,
                   'I am a Full Stack Developer',
-                  2000
+                  3000
                 ]}
                 wrapper="span"
-                speed={300}
+                speed={150}
                 style={{ fontSize: '2em', display: 'inline-block'}}
                 repeat={Infinity}
               />

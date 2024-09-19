@@ -102,6 +102,9 @@
 }
 
 @media(max-width: 1199px){
+    .form_main {
+        padding: 55px 20px;
+    }
     .contact_text p {
         padding: 0px;
     }
