@@ -196,7 +196,7 @@
     font-weight: 600;
 }
 
-@media (min-width: 1400px) and (max-width: 1725px) {
+/* @media (min-width: 1400px) and (max-width: 1725px) {
     .nav_main {
         right: 0;
     }
@@ -206,6 +206,7 @@
     .scroll-to-top {
         right: 0px !important;
     }
+    
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) { 
@@ -218,7 +219,7 @@
     .scroll-to-top {
         right: 0px !important;
     }
- };
+ }; */
 
 @media(max-width: 1199px){
     .nav_main li{
